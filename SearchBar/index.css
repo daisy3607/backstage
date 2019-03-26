@@ -1,0 +1,15 @@
+.searchBar {
+	border: none;
+	margin-left: 10px;
+	color: var(--gray);
+}
+
+.searchBar:focus {
+	border-bottom: 1px solid var(--gray);
+}
+
+.searchBar::placeholder {
+	color: var(--gray);
+	font-weight: 100;
+	font-size: 20px;
+}

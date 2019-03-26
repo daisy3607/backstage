@@ -1,0 +1,15 @@
+.item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 95%;
+	padding: 10px 0;
+	background: white;
+	border-bottom: 1px solid rgb(227, 235, 246);
+	list-style-type: none;
+	margin: 0 24px;
+
+	&:last-child {
+		border-bottom: none;
+	}
+}

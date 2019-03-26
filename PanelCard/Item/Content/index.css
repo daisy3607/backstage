@@ -1,0 +1,8 @@
+.itemContent {
+	& > h3 {
+		color: var(--gray);
+		font-size: 13px;
+		font-weight: 400;
+		margin: 0;
+	}
+}

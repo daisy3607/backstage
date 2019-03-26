@@ -1,0 +1,9 @@
+.header {
+	display: flex;
+	flex-direction: row;
+	padding: 8px 24px;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #edf2f9;
+	min-height: 55px;
+}

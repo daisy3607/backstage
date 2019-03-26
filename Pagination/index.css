@@ -1,0 +1,46 @@
+.active {
+	background-color: var(--secondary);
+	border: 1px solid var(--secondary);
+	color: white;
+}
+
+.pagination {
+	list-style-type: none;
+
+	& > button {
+		display: inline-block;
+		border: 1px solid #e3ebf6;
+		padding: 10px 14px;
+		font-size: 14px;
+
+		&:hover {
+			background-color: var(--body);
+		}
+
+		&.pointer {
+			cursor: pointer;
+		}
+
+		&.inactiveBtn {
+			cursor: pointer;
+
+			&:active {
+				background-color: var(--secondary);
+			}
+		}
+
+		&.active:hover {
+			background-color: var(--secondary);
+			border: 1px solid var(--secondary);
+			color: white;
+		}
+
+		&.iconLeft {
+			border-radius: 5px 0 0 5px;
+		}
+
+		&.iconRight {
+			border-radius: 0 5px 5px 0;
+		}
+	}
+}
